@@ -1,0 +1,15 @@
+
+spring.cloud.config.uri=http://localhost:8888
+spring.application.name=Engineer-Application-Customer-Service
+management.endpoints.web.exposure.include=*
+server.port=9998
+
+
+spring.thymeleaf.cache=false
+spring.thymeleaf.prefix=classpath:/templates/,file:/templates/enginner/
+spring.web.resources.add-mappings=true
+spring.thymeleaf.templateResolverOrder=2 
+
+logging.level.org.springframework.web=INFO
+spring.thymeleaf.enabled=true 
+spring.thymeleaf.suffix=.html

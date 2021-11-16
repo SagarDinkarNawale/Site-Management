@@ -1,0 +1,5 @@
+package com.enginnerapp.customerservice.config;
+
+public class TemplateResolverConfiguration {
+
+}

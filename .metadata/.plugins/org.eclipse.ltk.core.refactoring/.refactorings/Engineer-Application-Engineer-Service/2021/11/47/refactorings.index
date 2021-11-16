@@ -1,0 +1,45 @@
+1636960013186	Move 'index.html' to 'enginner'
+1636960082060	Copy file
+1636960415819	Move 'index.html' to 'enginner'
+1636960430431	Rename resource 'enginner'
+1636962789009	Copy folder
+1636962795175	Copy folder
+1636962846174	Move 13 resources to 'engineer'
+1636962874127	Copy files
+1636962877970	Copy files
+1636962912236	Move 11 resources to 'test'
+1636965281483	Rename package 'com.enginnerapp.customerservice'
+1636965293993	Rename package 'com.enginnerapp.customerservice.service'
+1636965304346	Rename package 'com.enginnerapp.customerservice.model'
+1636965318545	Rename package 'com.enginnerapp.customerservice.dao.util'
+1636965331499	Rename package 'com.enginnerapp.customerservice.dao'
+1636965349969	Rename package 'com.enginnerapp.customerservice.controller'
+1636965360025	Rename package 'com.enginnerapp.customerservice.config'
+1636965523017	Rename type 'CustomerController'
+1636973296007	Copy file
+1636973308040	Copy file
+1636973319776	Copy file
+1636973334648	Copy file
+1636973350233	Copy file
+1636973358001	Copy file
+1636973722896	Copy file
+1636975134645	Rename resource 'pages-profile.html'
+1636976180815	Copy file
+1636976211998	Copy file
+1636976217849	Copy file
+1636976227657	Copy file
+1636991773620	Delete element
+1637043383582	Copy compilation unit
+1637043389098	Delete element
+1637043398942	Copy compilation unit
+1637043402910	Delete element
+1637043414999	Copy compilation unit
+1637043421699	Delete element
+1637058457087	Rename resource 'addCustomer.html'
+1637059128455	Rename resource 'addCustomer_.html'
+1637063896289	Rename resource 'addCustomer.jsp'
+1637066205783	Rename resource 'addCustomer.html'
+1637066217875	Rename resource 'test1.jsp'
+1637066239265	Rename resource 'addCustomer.html'
+1637067255420	Rename resource 'addCustomer.jsp'
+1637067262357	Rename resource 'addCustomer_.html'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.Manager"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.service.ManagerService"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.Gender"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.Roles"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.Address"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.dao.ManagerDao"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.Branch"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.PersonInfo"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.model.AccountDetails"/>
+    <fullyQualifiedTypeName name="com.xoriant.bank.managerservice.model.Address"/>
+    <fullyQualifiedTypeName name="com.xoriant.managerservices.dao.util.CommonMethods"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.EnableHystrix"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Site Management\other\manager-service\manager-service"/>
+			<item value="D:\Site Management\Customer Service"/>
+			<item value="D:\Test POC\User-Service"/>
+			<item value="D:\State Bank POC"/>
+			<item value="D:\State Bank POC\Manager-Services\manager-service"/>
+			<item value="D:\State Bank POC\Email-Service"/>
+			<item value="D:\State Bank POC\Manager-Service"/>
+			<item value="D:\FULL POC\Manager-Service"/>
+			<item value="D:\FULL POC"/>
+			<item value="D:\Poc bank all Docs"/>
+			<item value="D:\State Bank POC\manager-service-1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

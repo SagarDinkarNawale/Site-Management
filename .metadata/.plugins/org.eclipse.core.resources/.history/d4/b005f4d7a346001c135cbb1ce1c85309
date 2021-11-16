@@ -1,0 +1,5 @@
+package com.enginnerapp.engineerservice.springbootOTPapp;
+
+public class WebSocketConfig {
+
+}

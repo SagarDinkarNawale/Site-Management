@@ -1,0 +1,125 @@
+2021-11-02 09:24:34.946  INFO 8220 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2021-11-02 09:24:35.611  INFO 8220 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=Manager-Service, profiles=[default], label=null, version=6d67d1c0326f4e238d961ee36ca85a4cc3e54522, state=null
+2021-11-02 09:24:35.611  INFO 8220 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/SagarDinkarNawale/Spring_Cloud.git/file:C:\Users\nawale_s\AppData\Local\Temp\config-repo-8980459759852000894\application.properties'}]
+2021-11-02 09:24:35.618  INFO 8220 --- [restartedMain] c.s.xoriant.ManagerServiceApplication    : No active profile set, falling back to default profiles: default
+2021-11-02 09:24:35.935  INFO 8220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-02 09:24:35.938  INFO 8220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2021-11-02 09:24:36.011  INFO 8220 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3f0930d-8dac-35a8-825d-656ed9b63ca3
+2021-11-02 09:24:36.023  INFO 8220 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-11-02 09:24:36.024  INFO 8220 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-11-02 09:24:36.035  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.035  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.036  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.037  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.037  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.039  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.040  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.043  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.043  INFO 8220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-02 09:24:36.092  INFO 8220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-11-02 09:24:36.093  INFO 8220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-02 09:24:36.093  INFO 8220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-02 09:24:36.143  INFO 8220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-02 09:24:36.144  INFO 8220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 525 ms
+2021-11-02 09:24:36.279  WARN 8220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-02 09:24:36.291  INFO 8220 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2021-11-02 09:24:36.311  INFO 8220 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'transaction-service' URL not provided. Will try picking an instance via load-balancing.
+2021-11-02 09:24:36.420  WARN 8220 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-02 09:24:36.690  INFO 8220 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'Manager-Service-1.springCloudBusInput' has 1 subscriber(s).
+2021-11-02 09:24:36.804  INFO 8220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-02 09:24:36.825  INFO 8220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-02 09:24:36.941  INFO 8220 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-11-02 09:24:36.963  WARN 8220 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-11-02 09:24:36.972  INFO 8220 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 22 endpoint(s) beneath base path '/actuator'
+2021-11-02 09:24:37.033  INFO 8220 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2021-11-02 09:24:37.036  INFO 8220 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2021-11-02 09:24:37.039  INFO 8220 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2021-11-02 09:24:37.042  INFO 8220 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler _org.springframework.integration.errorLogger
+2021-11-02 09:24:37.051  INFO 8220 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-11-02 09:24:37.051  INFO 8220 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'Manager-Service-1.errorChannel' has 1 subscriber(s).
+2021-11-02 09:24:37.051  INFO 8220 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-11-02 09:24:37.054  INFO 8220 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-02 09:24:37.068  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-02 09:24:37.068  INFO 8220 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-02 09:24:37.081  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-02 09:24:37.081  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-02 09:24:37.081  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-02 09:24:37.081  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-02 09:24:37.081  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-02 09:24:37.082  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-02 09:24:37.082  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-02 09:24:37.105  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-02 09:24:37.110  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-02 09:24:37.115  INFO 8220 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-02 09:24:37.125  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635825277125 with initial instances count: 6
+2021-11-02 09:24:37.126  INFO 8220 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MANAGER-SERVICE with eureka with status UP
+2021-11-02 09:24:37.127  INFO 8220 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635825277127, current=UP, previous=STARTING]
+2021-11-02 09:24:37.127  INFO 8220 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MANAGER-SERVICE/Sagar-Na.India.XoriantCorp.com:Manager-Service:9092: registering service...
+2021-11-02 09:24:37.128  INFO 8220 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-11-02 09:24:37.138  INFO 8220 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MANAGER-SERVICE/Sagar-Na.India.XoriantCorp.com:Manager-Service:9092 - registration status: 204
+2021-11-02 09:24:37.158  INFO 8220 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-11-02 09:24:37.158  INFO 8220 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-11-02 09:24:37.201  INFO 8220 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag, bound to: springCloudBus
+2021-11-02 09:24:37.201  INFO 8220 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [puffin.rmq2.cloudamqp.com:5671]
+2021-11-02 09:24:37.720  INFO 8220 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#355c6b8c:0/SimpleConnection@38caacd0 [delegate=amqp://owsxynjm@15.206.75.114:5671/owsxynjm, localPort= 62809]
+2021-11-02 09:24:38.001  INFO 8220 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag.errors' has 1 subscriber(s).
+2021-11-02 09:24:38.001  INFO 8220 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag.errors' has 2 subscriber(s).
+2021-11-02 09:24:38.203  INFO 8220 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag'
+2021-11-02 09:24:38.207  INFO 8220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-11-02 09:24:38.207  INFO 8220 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9092
+2021-11-02 09:24:38.330  INFO 8220 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag.errors
+2021-11-02 09:24:38.336  INFO 8220 --- [restartedMain] c.s.xoriant.ManagerServiceApplication    : Started ManagerServiceApplication in 3.678 seconds (JVM running for 262.7)
+2021-11-02 09:24:38.340  INFO 8220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.path . (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-11-02 09:24:38.341  INFO 8220 --- [restartedMain] c.s.xoriant.ManagerServiceApplication    : Simple log statement with inputs 1, 2 and 3
+2021-11-02 09:24:38.344 ERROR 8220 --- [restartedMain] c.s.xoriant.ManagerServiceApplication    : Simple LOGGER
+2021-11-02 09:25:32.239  INFO 8220 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MANAGER-SERVICE with eureka with status DOWN
+2021-11-02 09:25:32.239  INFO 8220 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635825332239, current=DOWN, previous=UP]
+2021-11-02 09:25:32.239  INFO 8220 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MANAGER-SERVICE/Sagar-Na.India.XoriantCorp.com:Manager-Service:9092: registering service...
+2021-11-02 09:25:32.246  INFO 8220 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MANAGER-SERVICE/Sagar-Na.India.XoriantCorp.com:Manager-Service:9092 - registration status: 204
+2021-11-02 09:25:32.343  INFO 8220 --- [Thread-8] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-11-02 09:25:32.731  INFO 8220 --- [Thread-8] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-11-02 09:25:32.731  INFO 8220 --- [Thread-8] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag'
+2021-11-02 09:25:32.732  INFO 8220 --- [Thread-8] o.s.c.stream.binder.BinderErrorChannel   : Channel 'Manager-Service-1.springCloudBus.anonymous.bYzReMg4QLiUluhefJfQag.errors' has 1 subscriber(s).
+2021-11-02 09:25:32.733  INFO 8220 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-11-02 09:25:32.733  INFO 8220 --- [Thread-8] o.s.i.channel.PublishSubscribeChannel    : Channel 'Manager-Service-1.errorChannel' has 0 subscriber(s).
+2021-11-02 09:25:32.734  INFO 8220 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2021-11-02 09:25:32.793  INFO 8220 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-02 09:25:32.798  INFO 8220 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-02 09:25:32.799  INFO 8220 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-02 09:25:35.810  INFO 8220 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-02 09:25:35.813  INFO 8220 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MANAGER-SERVICE/Sagar-Na.India.XoriantCorp.com:Manager-Service:9092 - deregister  status: 200
+2021-11-02 09:25:35.856  INFO 8220 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
